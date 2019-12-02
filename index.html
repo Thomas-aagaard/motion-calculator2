@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Motion Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/imageslider.css">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<nav>
+    <ul >
+        <li><a href="" class="logo">GET</a></li>
+        <li class="link"><a href="profile.html">Profile</a></li>
+        <li class="link"><a href="board.html">Board</a></li>
+        <li class="link"><a href="New-activity.html">New activity </a></li>
+    </ul>
+</nav>
+<div id="top-box">
+    <br>
+    <div class="grid-container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div><p class="logo logochange">GET</p></div>
+        <div style="    text-align: left;
+    padding-left: 2%;"><p class="text-frontpage">every  motion calculated </p>
+
+           <p style="margin-top: 0; margin-bottom: 0;"> result of <span style="color:#EE882A;">calories</span> burned </p>
+            <form action="activity.html"> <input type="submit" class="btn button" value="new activity" ></form>
+        </div>
+    </div>
+</div>
+<!--- the white box -->
+<div id="box2">
+    <p >SELECT YOUR ACTIVITY <br>
+        OR</p>
+    <form method="post" action="activity.html"><input type="submit" class="btn" value="new activity"></form>
+
+</div>
+<div id="box3">
+    <div id="picture">
+        <div class="grid-box3">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><span class="logo" style="color: #fff; text-align: center;">GET</span>
+                <span class="text-box3"> helps you to calculate the calories burned </span>
+            </div>
+        </div>
+        <div id="overlaybox3">
+            <p>GET all your workout tracked. You can add activities and get an overview of your workout plan. In adition,
+                calories burned are calculated by the exercises you do and stimulate you to keep on track of your workout plan.</p>
+            <br>
+            <hr style="background: #fff; width: 100px; height: 2px">
+        </div>
+
+    </div>
+</div>
+<!-- Slider starts --->
+<div class="slideshow-container">
+    <!--Image 1 -->
+    <div class="mySlides fade">
+        <img src="image/inphographic.jpg" style="width:100%">
+    </div>
+    <!-- Image 2-->
+    <div class="mySlides fade">
+        <img src="image/inphographic-yoga.jpg" style="width:100%">
+    </div>
+    <!-- Image 3 -->
+    <div class="mySlides fade">
+        <img src="image/strecthing-yoga.jpg" style="width:100%">
+    </div>
+    <!-- Arrows to swift between image -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<!-- the dots to swift throw images  -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script src="javascript/slide.js"></script>
+</body>
+</html>

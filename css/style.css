@@ -1,0 +1,150 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul .link {
+    float: right;
+    margin: 8px 5% 0 2%;
+}
+nav ul .link a {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Saira', sans-serif;
+    color: #000000;
+}
+.logo {
+    font-family: 'Saira Stencil One';
+    font-size: 1.4em;
+}
+#top-box  {
+    background-image: url("../image/motion1.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 18% 30% 60% 0;
+    grid-gap: 10px;
+    margin: 2% 9% 0 9%;
+    grid-template-rows: 200px auto 250px;
+    border: 4px solid #fff;
+}
+.grid-container > div {
+  /*  border: 1px solid black;*/
+    text-align: center;
+    font-size: 2.8em;
+    color:#fff;
+}
+p {
+    font-family: 'Saira', 'sans-serif';
+}
+.logochange {
+    font-size: 2.6em;
+    float: right;
+    margin-top:7%;
+}
+.text-frontpage {
+    margin-top: 6%;
+    border-bottom: 3px solid #fff;
+    margin-bottom: 0;
+    width: 76%;
+}
+.btn {
+    background: #EE882A;
+    border: 1px solid #000 ;
+    color:#000;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1%;
+    cursor:pointer;
+}
+.btn.button {
+    float: right;
+    margin-right: 32%;
+    margin-top: 2%;
+    padding: 2%;
+}
+.btn:hover {
+    color:#2d2828;
+    background: #ee882abf;
+}
+#box2 {
+    margin-top: 4%;
+    text-align: center;
+}
+#box2 p {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#box3 {
+    margin-top: 5%;
+    background: #000000;
+    padding: 2% 5%;
+}
+.grid-box3 {
+     display: grid;
+     grid-template-columns: 5% 90% 5%;
+     grid-gap: 10px;
+     margin: 2% 9% 0 9%;
+     grid-template-rows: 100px 150px;
+ }
+.grid-box3 > div{
+   /*  border: 1px solid black;*/
+    font-size: 2.8em;
+ }
+#picture {
+   background-image:url("../image/strecthing-yoga.jpg") ;
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat ;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+.text-box3 {
+    color:#EE882A;
+    text-shadow: 2px 1px #000;
+    font-weight: bold;
+}
+#overlaybox3 {
+    background: #000;
+    opacity: 65%;
+    color:#fff;
+    padding: 5%;
+}
+#overlaybox3 p{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 12% 0 12%;
+}
+/* Table queries */
+@media only screen and (max-device-width: 768px) {
+
+}
+
+/* Mobile queries */
+@media only screen and (max-device-width: 480px) {
+    #box3 {
+        padding: 1% 2%;
+    }
+    #picture {
+        height: 650px;
+    }
+    .grid-box3 {
+        margin: 0 9% 0 9%;
+        grid-template-rows: 50px 180px;
+    }
+    .btn.button {
+        margin-right: 73%;
+    }
+}
