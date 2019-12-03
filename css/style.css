@@ -160,4 +160,7 @@ p {
     #box3 {
         height: 100%;
     }
+    .overlaybox3 p {
+    font-size: 1.5em;
+    }
 }
