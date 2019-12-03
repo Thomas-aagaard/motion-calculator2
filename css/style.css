@@ -121,7 +121,7 @@ p {
     font-weight: bold;
     font-family: 'Saira', 'sans-serif';
 }
-#overlaybox3 {
+.overlaybox3 {
     background: #000;
     opacity: 65%;
     color:#fff;
@@ -152,7 +152,7 @@ p {
     .btn.button {
         margin-right: 73%;
     }
-     #overlaybox3 {
+     .overlaybox3 {
         opacity: 45%;
     }
 }
