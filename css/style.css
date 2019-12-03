@@ -152,4 +152,7 @@ p {
     .btn.button {
         margin-right: 73%;
     }
+     #overlaybox3 {
+        opacity: 65%;
+    }
 }
