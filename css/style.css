@@ -32,6 +32,7 @@ nav ul li a {
     padding-bottom:5% ;
     padding-top: 5%;
     background-position-y: 10px;
+    background-attachment: fixed;
 }
 .grid-container {
     display: grid;
@@ -91,10 +92,8 @@ p {
 
 #box3 {
     margin-top: 5%;
-    /* background-image:url("../image/strecthing-yoga.jpg") ;*/
-    /* background-image:url("../image/motion2.jpg") ;*/
-     background-image:url("../image/motion3.jpg") ;
-    /*  background-image:url("../image/motion4.jpg") ;*/
+    background-image:url("../image/motion3.jpg") ;
+    background-attachment: fixed;
     height: 1000px;
     width: 100%;
     background-repeat: no-repeat ;
@@ -145,6 +144,9 @@ p {
     .logo {
         font-size: 2em;
     }
+    #top-box  {
+    background-attachment: unset;
+}
     #box3 {
         padding: 0;
     }
@@ -169,7 +171,7 @@ p {
         font-size: 2em;
     }
     #box3 {
-        background-image: url(../image/motion3.jpg);
         height: 100%;
+        background-attachment: unset;
     }
 }
