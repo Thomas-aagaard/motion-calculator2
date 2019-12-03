@@ -139,6 +139,12 @@ p {
 
 /* Mobile queries */
 @media only screen and (max-device-width: 400px) {
+    nav ul .link a {
+        font-size: 1.5em;
+    }
+    .logo {
+        font-size: 2em;
+    }
     #box3 {
         padding: 0;
     }
@@ -151,6 +157,7 @@ p {
     }
     .btn.button {
         margin-right: 73%;
+        margin-bottom: 6%;
     }
     .overlaybox3 {
         opacity: 65% ;
