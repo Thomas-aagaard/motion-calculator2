@@ -28,14 +28,17 @@ nav ul li a {
     background-repeat: no-repeat ;
     background-size: cover;
     background-position: center;
-    height: 1000px;
+    height: 100%;
+    padding-bottom:5% ;
+    padding-top: 5%;
+    background-position-y: 10px;
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 18% 30% 60% 0;
+    grid-template-columns: 26% 20% 54% ;
     grid-gap: 10px;
-    margin: 2% 9% 0 9%;
-    grid-template-rows: 200px auto 250px;
+    margin: 0 9% 0 9%;
+    grid-template-rows: 100px auto;
     border: 4px solid #fff;
 }
 .grid-container > div {
@@ -50,10 +53,10 @@ p {
 .logochange {
     font-size: 2.6em;
     float: right;
-    margin-top:7%;
+    margin-top: 0;
 }
 .text-frontpage {
-    margin-top: 6%;
+    margin-top: 3%;
     border-bottom: 3px solid #fff;
     margin-bottom: 0;
     width: 76%;
@@ -69,7 +72,7 @@ p {
 }
 .btn.button {
     float: right;
-    margin-right: 32%;
+    margin-right: 25%;
     margin-top: 2%;
     padding: 2%;
 }
@@ -88,8 +91,15 @@ p {
 
 #box3 {
     margin-top: 5%;
-    background: #000000;
-    padding: 2% 5%;
+    /* background-image:url("../image/strecthing-yoga.jpg") ;*/
+    /* background-image:url("../image/motion2.jpg") ;*/
+     background-image:url("../image/motion3.jpg") ;
+    /*  background-image:url("../image/motion4.jpg") ;*/
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
 }
 .grid-box3 {
      display: grid;
@@ -103,18 +113,13 @@ p {
     font-size: 2.8em;
  }
 #picture {
-   background-image:url("../image/strecthing-yoga.jpg") ;
-    height: 900px;
-    width: 100%;
-    background-repeat: no-repeat ;
-    background-size: contain;
-    background-position: center;
     text-align: center;
 }
 .text-box3 {
     color:#EE882A;
     text-shadow: 2px 1px #000;
     font-weight: bold;
+    font-family: 'Saira', 'sans-serif';
 }
 #overlaybox3 {
     background: #000;
