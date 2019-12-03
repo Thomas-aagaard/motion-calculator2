@@ -42,6 +42,7 @@ nav ul li a {
     border: 4px solid #fff;
 }
 .grid-container > div {
+  /*  border: 1px solid black;*/
     text-align: center;
     font-size: 2.8em;
     color:#fff;
@@ -90,7 +91,10 @@ p {
 
 #box3 {
     margin-top: 5%;
-    background-image:url("../image/motion3.jpg") ;
+    /* background-image:url("../image/strecthing-yoga.jpg") ;*/
+    /* background-image:url("../image/motion2.jpg") ;*/
+     background-image:url("../image/motion3.jpg") ;
+    /*  background-image:url("../image/motion4.jpg") ;*/
     height: 1000px;
     width: 100%;
     background-repeat: no-repeat ;
@@ -123,7 +127,7 @@ p {
     color:#fff;
     padding: 5%;
 }
-#overlaybox3 p{
+.overlaybox3 p{
     font-size: 1.5em;
     text-align: center;
     margin: 0 12% 0 12%;
@@ -134,7 +138,7 @@ p {
 }
 
 /* Mobile queries */
-@media only screen and (max-device-width: 380px) {
+@media only screen and (max-device-width: 400px) {
     #box3 {
         padding: 0;
     }
@@ -148,19 +152,17 @@ p {
     .btn.button {
         margin-right: 73%;
     }
-     .overlaybox3 {
-        background: #000000b8;
+    .overlaybox3 {
+        opacity: 65% ;
     }
-      .grid-container > div {
+    .grid-container > div {
         font-size: 2.4em;
     }
     .logochange {
         font-size: 2em;
     }
     #box3 {
+        background-image: url(../image/motion3.jpg);
         height: 100%;
-    }
-    .overlaybox3 p {
-    font-size: 1.5em;
     }
 }
