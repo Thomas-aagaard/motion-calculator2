@@ -138,7 +138,7 @@ p {
 }
 
 /* Mobile queries */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 380px) {
     #box3 {
         padding: 1% 2%;
     }
