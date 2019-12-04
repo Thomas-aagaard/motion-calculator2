@@ -145,8 +145,12 @@ p {
         font-size: 2em;
     }
     #top-box  {
-    background-attachment: unset;
-}
+        background-attachment: unset;
+    }
+    #box2 > form > input.btn {
+        padding: 2%;
+        font-size: 1.3em;
+    }
     #box3 {
         padding: 0;
     }
@@ -160,6 +164,9 @@ p {
     .btn.button {
         margin-right: 73%;
         margin-bottom: 6%;
+        padding: 2%;
+        font-size: 0.6em;
+        
     }
     .overlaybox3 {
         background: #00000094; ;
