@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul .link {
+    float: right;
+    margin: 8px 5% 0 2%;
+}
+nav ul .link a {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Saira', sans-serif;
+    color: #000000;
+}
+.logo {
+    font-family: 'Saira Stencil One';
+    font-size: 1.4em;
+}
+#top-box  {
+    background-image: url("../images/motion1.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding-bottom:5% ;
+    padding-top: 10%;
+    background-position-y: 50px;
+    background-attachment: fixed;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 26% 20% 54% ;
+    grid-gap: 10px;
+    margin: 0 9% 0 9%;
+    grid-template-rows: 100px auto;
+    border: 4px solid #fff;
+}
+.grid-container > div {
+    text-align: center;
+    font-size: 2.4em;
+    color:#fff;
+}
+p {
+    font-family: 'Saira', 'sans-serif';
+}
+.logochange {
+    font-size: 2.6em;
+    float: right;
+    margin-top: 0;
+}
+.text-frontpage {
+    margin-top: 3%;
+    border-bottom: 3px solid #fff;
+    margin-bottom: 0;
+    width: 65%;
+}
+.btn {
+    background: #EE882A;
+    border: 1px solid #000 ;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1%;
+    text-decoration:none;
+    font-size:1em;
+    color:#000;
+}
+.btn a {
+    text-decoration: none;  
+}
+.btn:hover {
+    color:#2d2828;
+    background: #ee882abf;
+}
+a.btn.button {
+    font-size:0.4em;
+}
+#box2 {
+    margin-top: 4%;
+    text-align: center;
+}
+#box2 p {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#box3 {
+    margin-top: 5%;
+    background-image: url("../images/motion3.jpg");
+    background-attachment: fixed;
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+}
+.grid-box3 {
+     display: grid;
+     grid-template-columns: 5% 90% 5%;
+     grid-gap: 10px;
+     margin: 2% 9% 0 9%;
+     grid-template-rows: 100px 250px;
+ }
+.grid-box3 > div{
+    font-size: 2.8em;
+ }
+#picture {
+    text-align: center;
+}
+.text-box3 {
+    color:#EE882A;
+    text-shadow: 2px 1px #000;
+    font-weight: bold;
+    font-family: 'Saira', 'sans-serif';
+}
+.overlaybox3 {
+    background: #00000094;
+    color: #fff;
+    padding: 5%;
+}
+.overlaybox3 p{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 12% 0 12%;
+}
+/* Table queries */
+@media only screen and (max-device-width: 768px) {
+    nav ul .link {
+        margin: 0px 8% 0 1%;
+    }
+
+    nav ul .link a {
+            font-size: 0.8em;
+        }
+
+    .logo {
+        font-size: 0.8em;
+    }
+
+    #top-box {
+        background-attachment: unset;
+        padding-top: 15%;
+    }
+
+    .grid-container {
+        grid-template-columns: 20% 16% 54%;
+        margin: 0 5% 0 5%;
+        grid-template-rows: 20px auto;
+        padding-bottom: 5%;
+    }
+
+    #box2 > form > input.btn {
+        padding: 2%;
+        font-size: 1.3em;
+    }
+
+    #box3 {
+        padding: 0;
+    }
+
+    #picture {
+        height: auto;
+    }
+
+    .grid-box3 {
+        margin: 0;
+        grid-template-rows: 50px 150px;
+    }
+
+   .button {
+        font-size: 0.6em;
+    }
+
+    .btn {
+        font-size: 0.6em;
+    }
+
+    .overlaybox3 {
+        background: #00000094;
+        
+    }
+
+        .overlaybox3 p {
+            font-size: 1em;
+            margin: 0 12% 0 12%;
+        }
+
+    .grid-container > div {
+        font-size: 1.4em;
+    }
+
+    .logochange {
+        font-size: 2em;
+    }
+
+    #box3 {
+        height: 100%;
+        background-attachment: unset;
+    }
+
+    .grid-box3 > div {
+        font-size: 1.5em;
+    }
+}
+
+/* Mobile queries */
+@media only screen and (max-device-width: 400px) {
+    nav ul .link {
+        margin: 0px 8% 0 1%;
+    } 
+    nav ul .link a {
+        font-size: 0.7em;
+    }
+    
+    .logo {
+        font-size: 0.8em;
+    }
+    #top-box  {
+        background-attachment: unset;
+        padding-top:15%;
+    }
+    .text-frontpage {
+        width: 100%;
+    }
+    .grid-container {
+        grid-template-columns: 20% 16% 54%;
+        margin: 0 5% 0 5%;
+        grid-template-rows: 20px auto;
+        padding-bottom:5%;
+    }
+    #box2 > form > input.btn {
+        padding: 2%;
+        font-size: 1.3em;
+    }
+    #box3 {
+        padding: 0;
+    }
+    #picture {
+        height: auto;
+    }
+    .grid-box3 {
+        margin: 0;
+        grid-template-rows: 50px 150px;
+    }
+    
+    .btn.button {
+        padding: 2%;
+        font-size: 0.6em;
+        
+    }
+    .btn {
+        font-size:0.6em;
+    }
+    .overlaybox3 {
+        background: #00000094; ;
+    }
+        .overlaybox3 p {
+            font-size: 1em;
+            margin: 0 12% 0 12%;
+        }
+    .grid-container > div {
+        font-size: 1.4em;
+    }
+    .logochange {
+        font-size: 2em;
+    }
+    #box3 {
+        height: 100%;
+        background-attachment: unset;
+    }
+    .grid-box3 > div {   
+        font-size: 1.5em;
+    }
+}
